@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<!--
+ _________   _______       ___     ___    ___      _____      _                  _      _ _
+|         | |        \    |   |   |   |  |   |    / ____|    | |                | |    | (_)
+|__     __| |    _    \   |   |   '   |  '   '   | |    _   _| |__   ___ _ __ __| | ___| |_  __ _
+   |   |    |   |  \   \  |   '_ /    '_/   /    | |   | | | | '_ \ / _ \ '__/ _` |/ _ \ | |/ _` |
+   |   |    |   |   |   | |         /      /     | |___| |_| | |_) |  __/ | | (_| |  __/ | | (_| |
+   '___'    '___'   '___' '_______ / '____/       \_____\__, |_.__/ \___|_|  \__,_|\___|_|_|\__,_|
+                                                         __/ |
+                                                        |___/
+Design by:
+——————————
+
+    ALEXANDER GRIFFIOEN
+   ✉alexander🐺thenextweb.com
+   ✎@oscaralexander
+   ✈Amsterdam, NL
+
+Implementation by:
+——————————————————
+
+    LAURA GONZÁLEZ          |   PABLO ROMÁN             |   JAVIER NEGRE
+   ✉laura🐧thenextweb.com    |  ✉pablo🐵thenextweb.com   |  ✉javi🐻thenextweb.com
+   ✎@freezydorito           |  ✎@pabloroman             |  ✎@javi_negre
+   ✈Oviedo, ES              |  ✈Amsterdam, NL           |  ✈Barcelona, ES
+
+    GORDAN KONDEV           |   JULIO FOULQUIÉ
+   ✉gordan🦁thenextweb.com  |  ✉julio🐼thenextweb.com
+   ✈Amsterdam, NL           |  ✎@julioelpoeta
+                            |  ✈Montevideo, UY
+
+🍺 Aren't you thirsty? Why don't you cyberdelia.knock() on the door? 🍻
+
+-->
+<html lang="en-us" prefix="og:http://ogp.me/ns# fb:http://ogp.me/ns/fb#" itemscope itemtype="https://schema.org/">
+<head>
+
+<meta charset="UTF-8">
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<meta content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width" name="viewport">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="referrer" content="unsafe-url">
+<meta name="apple-mobile-web-app-title" content="The Next Web">
+<meta name="msvalidate.01" content="EBA9DC0DD4E376AF9708F73323680AB1" />
+<!-- Awin verification 001 -->
+<title>IBM&#039;s &#039;Code and Response&#039; documentary proves developers can be superheroes too</title>
+
+<link rel="manifest" href="/manifest.json">
+
+<link rel="stylesheet" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/css/style.css?v=1573671261" type="text/css"/>
+
+<link rel="dns-prefetch" href="//cdn0.tnwcdn.com/">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="preconnect" href="//cdn0.tnwcdn.com/">
+<link rel="preconnect" href="//www.googletagmanager.com">
+<link rel="apple-touch-icon" sizes="57x57" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-57x57.png?v=1573671226">
+<link rel="apple-touch-icon" sizes="60x60" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-60x60.png?v=1573671226">
+<link rel="apple-touch-icon" sizes="72x72" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-72x72.png?v=1573671226">
+<link rel="apple-touch-icon" sizes="76x76" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-76x76.png?v=1573671226">
+<link rel="apple-touch-icon" sizes="114x114" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-114x114.png?v=1573671226">
+<link rel="apple-touch-icon" sizes="120x120" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-120x120.png?v=1573671226">
+<link rel="apple-touch-icon" sizes="144x144" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-144x144.png?v=1573671226">
+<link rel="apple-touch-icon" sizes="152x152" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-152x152.png?v=1573671226">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-180x180.png?v=1573671226">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-32x32.png?v=1573671226" sizes="32x32">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-194x194.png?v=1573671226" sizes="194x194">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-96x96.png?v=1573671226" sizes="96x96">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/android-chrome-192x192.png?v=1573671226" sizes="192x192">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-16x16.png?v=1573671226" sizes="16x16">
+<link rel="shortcut icon" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon.png?v=1573671226">
+<link rel="alternate" type="application/rss+xml" title="The Next Web RSS Feed" href="http://feeds2.feedburner.com/thenextweb">
+<!--  WP_HEAD   -->
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v11.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://thenextweb.com/artificial-intelligence/2019/11/18/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="IBM&#039;s &#039;Code and Response&#039; documentary proves developers can be superheroes too" />
+<meta property="og:description" content="IBM‘s upcoming “Code and Response” documentary is an hour-long tour-de-force showcasing several developer–activists using technology to mitigate the harm caused by natural disasters. I recently had the opportunity to watch an advanced screening, and it’s the single most touching, inspiring documentary I’ve seen this year. The past few years have been some of the absolute &hellip;" />
+<meta property="og:url" content="https://thenextweb.com/artificial-intelligence/2019/11/18/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too/" />
+<meta property="og:site_name" content="The Next Web" />
+<meta property="article:publisher" content="https://www.facebook.com/thenextweb" />
+<meta property="article:author" content="http://www.facebook.com/thenextweb" />
+<meta property="article:published_time" content="2019-11-18T19:28:19+01:00" />
+<meta property="article:modified_time" content="2019-11-18T19:28:21+01:00" />
+<meta property="og:updated_time" content="2019-11-18T19:28:21+01:00" />
+<meta property="og:image" content="https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&#038;fit=1280%2C640&#038;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F08%2Fibm.jpg&#038;signature=0333280133d9abed50931c574436305d" />
+<meta property="og:image:secure_url" content="https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&#038;fit=1280%2C640&#038;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F08%2Fibm.jpg&#038;signature=0333280133d9abed50931c574436305d" />
+<meta property="og:image:width" content="1458" />
+<meta property="og:image:height" content="820" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="IBM‘s upcoming “Code and Response” documentary is an hour-long tour-de-force showcasing several developer–activists using technology to mitigate the harm caused by natural disasters. I recently had the opportunity to watch an advanced screening, and it’s the single most touching, inspiring documentary I’ve seen this year. The past few years have been some of the absolute [&hellip;]" />
+<meta name="twitter:title" content="IBM&#039;s &#039;Code and Response&#039; documentary proves developers can be superheroes too" />
+<meta name="twitter:site" content="@thenextweb" />
+<meta name="twitter:image" content="https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&#038;fit=1280%2C640&#038;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F08%2Fibm.jpg&#038;signature=0333280133d9abed50931c574436305d" />
+<meta name="twitter:creator" content="@mrgreene1977" />
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='elasticpress-facets-css'  href='https://thenextweb.com/wp-content/plugins/elasticpress/dist/css/facets.min.css?ver=3.0.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://thenextweb.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-content/plugins/wordlift-tnw/public/js/wordlift-tnw-public.js?ver=1.5.0-dev'></script>
+<link rel='https://api.w.org/' href='https://thenextweb.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thenextweb.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://thenextweb.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://thenextweb.com/?p=1256546' />
+<link rel="alternate" type="application/json+oembed" href="https://thenextweb.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://thenextweb.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F&#038;format=xml" />
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@id":"#Breadcrumb","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/thenextweb.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"name":"Artificial Intelligence","@id":"https:\/\/thenextweb.com\/artificial-intelligence"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/11\/18\/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too\/","name":"IBM&#8217;s &#8216;Code and Response&#8217; documentary proves developers can be superheroes too"}}]}</script>
+        <!-- JSON-LD cached: yes-->
+        <script type="application/ld+json">[{"@context":"http:\/\/schema.org","@id":"http:\/\/data.thenextweb.com\/tnw\/post\/ibms_code_and_response_documentary_proves_developers_can_be_superheroes_too","@type":"NewsArticle","description":"IBM's upcoming \u201cCode and Response\u201d documentary is an hour-long tour-de-force showcasing several developer-activists using technology to mitigate the harm caused by natural disasters. ...","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/11\/18\/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too\/","breadcrumb":{"@id":"#Breadcrumb"}},"image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2018\/08\/ibm.jpg","width":1458,"height":820},"headline":"IBM's 'Code and Response' documentary proves developers can be superheroes too","datePublished":"2019-11-18T19:28:19+00:00","dateModified":"2019-11-18T19:28:21+00:00","wordCount":457,"publisher":{"@type":"Organization","@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/the_next_web","name":"The Next Web","sameAs":["https:\/\/en.wikipedia.org\/wiki\/The_Next_Web","https:\/\/www.facebook.com\/thenextweb","https:\/\/www.twitter.com\/thenextweb","https:\/\/plus.google.com\/+TheNextWeb\/","https:\/\/instagram.com\/thenextweb","https:\/\/www.youtube.com\/user\/thenextweb","https:\/\/www.pinterest.com\/thenextweb\/","https:\/\/www.linkedin.com\/company\/the-next-web","https:\/\/vine.co\/thenextweb","https:\/\/thenextweb.tumblr.com","https:\/\/soundcloud.com\/thenextweb","https:\/\/vimeo.com\/thenextweb","https:\/\/vk.com\/thenextweb","https:\/\/www.slideshare.net\/thenextweb","https:\/\/flipboard.com\/@thenextweb","https:\/\/storify.com\/thenextweb","https:\/\/www.stumbleupon.com\/channel\/thenextweb","https:\/\/www.flickr.com\/photos\/thenextweb\/","https:\/\/foursquare.com\/thenextweb"],"logo":{"@type":"ImageObject","url":"https:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/06\/tnw-logo-amp.png","width":284,"height":60}},"about":[{"@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/ibm"},{"@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/code"},{"@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/software_developer"}],"mentions":[{"@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/activism"}],"author":{"@type":"Person","@id":"http:\/\/data.thenextweb.com\/tnw\/user\/tristangreen","name":"Tristan Greene","url":"https:\/\/thenextweb.com\/author\/tristangreen\/"},"articleSection":"Artificial Intelligence","dateCreated":"2019-11-18T19:28:19+00:00","name":"IBM\u2019s \u2018Code and Response\u2019 documentary proves developers can be superheroes too","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/11\/18\/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too\/","articleBody":"IBM's upcoming \u201cCode and Response\u201d documentary is an hour-long tour-de-force showcasing several developer-activists using technology to mitigate the harm caused by natural disasters. I recently had the opportunity to watch an advanced screening, and it's the single most touching, inspiring documentary I've seen this year.\r\n\r\nThe past few years have been some of the absolute worst on record for natural disasters. Hurricanes and wildfires have raged out of control causing thousands of deaths and billions of dollars in damage. Entire communities have been ravaged. Not only is there no end in sight, but current trends indicate things are only going to get worse as the human-caused climate crisis continues to disrupt the environment and produce these historic, unpredictable events.\r\n\r\nIn the midst of this new, terrifying paradigm a new kind of hero has emerged: The coder.\r\n\r\nhttps:\/\/youtu.be\/I2rJBefYC8c\r\n\r\nIBM's \u201cCode and Response\u201d is both a documentary and an open-source movement. The film, directed by Austin Peck, tells the unfolding tales of four different developers personally affected by disasters in their respective communities and their journeys to create open-source technology-based solutions to save lives, aid responders, and help recovery efforts.\r\n\r\nThe movement calls on the technology and developer communities to assist in creating, implementing, and improving these solutions at the global scale. According to IBM:\r\nThe movie\u2019s title sparked a new movement, Code &amp;amp; Response: IBM\u2019s new $25 million, 4-year deployment initiative to build, fortify, test and implement solutions including those at coding challenges such as Call for Code.\r\nI went into my private viewing unsure what to expect, partially assuming I'd see an under-produced, if heartfelt look into the personal lives of a few developers interspersed with natural disaster footage. I came out of with a new perspective on what heroism looks like.\r\n\r\nThe stories span Japan, California, Puerto Rico, and Mexico with breathtaking cinematography, engaging interviews, and a permeating thread of hope in the face of horror that makes \u201cCode and Response\u201d a must-see.\r\n\r\nThis is a film about the indomitable human spirit. The developers showcased in the movie aren't employees tasked with work-shopping solutions for the company, they're regular people affected by horrible situations who've decided to do something about it. Their expertise, innovation, and clever use of IoT, AI, cloud, and other technologies shows what happens when motivated coders are given the opportunity to create solutions to today's biggest, most pressing problems in concert with one of the globe's largest technology companies.\r\n\r\n\u201cCode and Response\u201d will\u00a0premiere on Amazon Prime, Vimeo, and Apple TV on Tuesday, 19 November. For more information about the film click here. To learn more about the Code and Response movement, click here.","copyrightYear":"2016","sourceOrganization":{"@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/the_next_web"},"copyrightHolder":{"@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/the_next_web"},"interactionStatistic":[{"@type":"InteractionCounter","interactionService":{"@type":"Website","name":"Twitter","url":"http:\/\/www.twitter.com"},"interactionType":"https:\/\/schema.org\/ShareAction","userInteractionCount":"106"},{"@type":"InteractionCounter","interactionService":{"@type":"Website","name":"Facebook","url":"http:\/\/www.facebook.com"},"interactionType":"https:\/\/schema.org\/ShareAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionService":{"@type":"Website","name":"Reddit","url":"https:\/\/www.reddit.com"},"interactionType":"https:\/\/schema.org\/ShareAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"https:\/\/schema.org\/CommentAction","userInteractionCount":"0"}]},{"@context":"http:\/\/schema.org","@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/ibm","@type":"Organization","description":"All our stories about IBM. International Business Machines is an American multinational technology company headquartered in Armonk, New York. It is one of the original manufacturers of computer systems for the business and consumer markets.","mainEntityOfPage":"https:\/\/thenextweb.com\/vocabulary\/ibm\/","name":"IBM","sameAs":["http:\/\/data.wordlift.io\/wl0257\/entity\/ibm","http:\/\/rdf.freebase.com\/ns\/m.03sc8","http:\/\/yago-knowledge.org\/resource\/IBM","http:\/\/dbpedia.org\/resource\/IBM","http:\/\/data.wordlift.io\/wl0257\/entity\/ibm","http:\/\/rdf.freebase.com\/ns\/m.03sc8","http:\/\/yago-knowledge.org\/resource\/IBM","http:\/\/dbpedia.org\/resource\/IBM"],"url":["https:\/\/thenextweb.com\/vocabulary\/ibm\/","https:\/\/www.facebook.com\/IBM","https:\/\/twitter.com\/IBM","https:\/\/linkedin.com\/company\/ibm","http:\/\/ibm.com\/"],"address":{"@type":"PostalAddress","addressLocality":"New York","addressCountry":"United States "}},{"@context":"http:\/\/schema.org","@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/code","@type":"Thing","description":"A code is a rule for converting a piece of information into another form or representation (one sign into another sign), not necessarily of the same type. In communications and information processing, encoding is the process by which information from a source is converted into symbols to be communicated. Decoding is the reverse process, converting...","mainEntityOfPage":"https:\/\/thenextweb.com\/vocabulary\/code\/","name":"Code","sameAs":["http:\/\/rdf.freebase.com\/ns\/m.01lt2","http:\/\/sws.geonames.org\/3124887\/","http:\/\/dbpedia.org\/resource\/Code"],"url":"https:\/\/thenextweb.com\/vocabulary\/code\/"},{"@context":"http:\/\/schema.org","@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/software_developer","@type":"Thing","description":"A software developer is a person concerned with facets of the software development process. Their work includes researching, designing, implementing, and testing software. A software developer may take part in design, computer programming, or software project management. They may contribute to the overview of the project on the application level rather than component-level or individual...","mainEntityOfPage":"https:\/\/thenextweb.com\/vocabulary\/software-developer\/","name":"Software developer","alternateName":["developers"],"sameAs":["http:\/\/yago-knowledge.org\/resource\/Software_developer","http:\/\/rdf.freebase.com\/ns\/m.018j6p","http:\/\/dbpedia.org\/resource\/Software_developer"],"url":"https:\/\/thenextweb.com\/vocabulary\/software-developer\/"},{"@context":"http:\/\/schema.org","@id":"http:\/\/data.thenextweb.com\/tnw\/entity\/activism","@type":"Thing","description":"Activism consists of efforts to promote, impede, or direct social, political, economic, or environmental change, or stasis. Activism can take a wide range of forms from writing letters to newspapers or politicians, political campaigning, economic activism such as boycotts or preferentially patronizing businesses, rallies, street marches, strikes, sit-ins, and hunger strikes. Activists can function in...","mainEntityOfPage":"https:\/\/thenextweb.com\/vocabulary\/activism\/","image":[{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/wl\/2019\/01\/1963_march_on_washington.jpg"}],"name":"Activism","sameAs":["http:\/\/rdf.freebase.com\/ns\/m.0xzm","http:\/\/dbpedia.org\/resource\/Activism"],"url":"https:\/\/thenextweb.com\/vocabulary\/activism\/"}]</script>
+		<script>
+  (function (s,o,n,a,r,i,z,e) {s['StackSonarObject']=r;s[r]=s[r]||function(){
+  (s[r].q=s[r].q||[]).push(arguments)},s[r].l=1*new Date();i=o.createElement(n),
+  z=o.getElementsByTagName(n)[0];i.async=1;i.src=a;z.parentNode.insertBefore(i,z)
+  })(window,document,'script','https://www.stack-sonar.com/ping.js','stackSonar');
+
+  stackSonar('stack-connect-wp', "xbcLoqGe2L037SCrJ_Im4A");
+</script>
+<!--  WP_HEAD   -->
+
+<meta property="twitter:account_id" content="10876852">
+<meta property="fb:app_id" content="378011798897423">
+<link href="https://plus.google.com/115081025762845243709/" rel="publisher">
+<meta property="fb:pages" content="106976563522"><!-- TNW -->
+<meta property="fb:pages" content="136548879865026"><!-- TNW Conference -->
+<meta property="fb:pages" content="252857631761065"><!-- TNW NYC -->
+<meta property="fb:pages" content="665773266831844"><!-- Deals -->
+<meta name="yandex-verification" content="66df89eec58f9170">
+
+<meta property="bt:body" content="IBM's upcoming “Code and Response” documentary is an hour-long tour-de-force showcasing several developer-activists using technology to mitigate the harm caused by natural disasters. I recently had the opportunity to watch an advanced screening, and it's the single most touching, inspiring documentary I've seen this year.
+
+The past few years have been some of the absolute worst on record for natural disasters. Hurricanes and wildfires have raged out of control causing thousands of deaths and billions of dollars in damage. Entire communities have been ravaged. Not only is there no end in sight, but current trends indicate things are only going to get worse as the human-caused climate crisis continues to disrupt the environment and produce these historic, unpredictable events.
+
+In the midst of this new, terrifying paradigm a new kind of hero has emerged: The coder.
+
+https://youtu.be/I2rJBefYC8c
+
+IBM's “Code and Response” is both a documentary and an open-source movement. The film, directed by Austin Peck, tells the unfolding tales of four different developers personally affected by disasters in their respective communities and their journeys to create open-source technology-based solutions to save lives, aid responders, and help recovery efforts.
+
+The movement calls on the technology and developer communities to assist in creating, implementing, and improving these solutions at the global scale. According to IBM:
+The movie’s title sparked a new movement, Code &amp;amp; Response: IBM’s new $25 million, 4-year deployment initiative to build, fortify, test and implement solutions including those at coding challenges such as Call for Code.
+I went into my private viewing unsure what to expect, partially assuming I'd see an under-produced, if heartfelt look into the personal lives of a few developers interspersed with natural disaster footage. I came out of with a new perspective on what heroism looks like.
+
+The stories span Japan, California, Puerto Rico, and Mexico with breathtaking cinematography, engaging interviews, and a permeating thread of hope in the face of horror that makes “Code and Response” a must-see.
+
+This is a film about the indomitable human spirit. The developers showcased in the movie aren't employees tasked with work-shopping solutions for the company, they're regular people affected by horrible situations who've decided to do something about it. Their expertise, innovation, and clever use of IoT, AI, cloud, and other technologies shows what happens when motivated coders are given the opportunity to create solutions to today's biggest, most pressing problems in concert with one of the globe's largest technology companies.
+
+“Code and Response” will premiere on Amazon Prime, Vimeo, and Apple TV on Tuesday, 19 November. For more information about the film click here. To learn more about the Code and Response movement, click here.">
+<meta name="author" content="Tristan Greene">
+
+
+<script type="text/javascript">
+    var msTag = {"site":"tnw","page":"article","cyberdelia_page_type":"article","data":{"postId":1256546,"category":"Artificial Intelligence,Science,Tech","section":"Tech","company":"IBM","sponsorName":null,"isSponsoredPost":"No","isSponsoredCategory":"No"}}</script>
+<script src="//massariuscdn.com/pubs/tnw/tnw_adtech_setup.js"></script>
+<script type="text/javascript">
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+
+	window.dataLayer = window.dataLayer || [];
+</script>
+
+ <script type="text/javascript">
+
+    var IS_MOBILE = false;
+    var APP_LOCALE = {"country":"CZ","region":"EU","city":""};
+    dataLayer.push({
+        'location': [
+            APP_LOCALE
+        ]
+    });
+</script> 
+<!-- DataLayer -->
+    <script type="text/javascript">dataLayer.push({"version":"4 \/ 4.9.8","page":[{"template":"article","ads":[{"siteskin":0,"sponsored":0}]}],"user":[{"shares":[{"fb":0,"tw":0,"li":0,"go":0,"re":0}]}]});</script>
+    <script type="text/javascript">dataLayer.push({"page":[{"id":1256546,"url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/11\/18\/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too\/","words":814,"time":"7:28 pm","column":0,"fyi":0,"author":"Tristan Greene","date":"2019-11-18","date_published":"2019-11-18 19-28","date_published_week":"2019-47","type":"Article","post-status":"publish","videos":0,"tags":[],"categories":["Artificial Intelligence","Science","Tech"],"sections":["Tech"],"companies":["IBM"],"profiles":[],"events":[],"topics":[],"wordlift":["IBM","Code","Software developer","Activism"],"comments":"0","social_title":"IBM&#8217;s &#8216;Code and Response&#8217; documentary proves developers can be superheroes too","shares":{"fb":0,"tw":106,"li":0,"go":0,"re":0},"ads":{"roadblocked":0,"sponsor":"","sponsoredCategory":false,"sponsored":false,"client":null,"campaign_name":null,"product_type":null}}]});</script>
+
+<!-- Google Tag Manager -->
+<script>
+	(function (w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start': new Date().getTime(), event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src =
+			'//www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-MHDDSC');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager -->
+<noscript>
+	<iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-MHDDSC" style="display: none; visibility: hidden;" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager -->
+    <link rel="next" href="https://thenextweb.com/tech/2019/11/20/this-elitist-dating-app-matches-you-up-for-2-minute-livestream-dates/" />
+    <script>
+    !function(n,e,o,r,i){if(!e){e=e||{},window.permutive=e,e.q=[],e.config=i||{},e.config.projectId=o,e.config.apiKey=r,e.config.environment=e.config.environment||"production";for(var t=["addon","identify","track","trigger","query","segment","segments","ready","on","once","user","consent"],c=0;c<t.length;c++){var f=t[c];e[f]=function(n){return function(){var o=Array.prototype.slice.call(arguments,0);e.q.push({functionName:n,arguments:o})}}(f)}}}(document,window.permutive,"970c370e-66b5-4cc7-ad17-1d370e11bf75","d6c42980-42e9-4537-93f1-f2c3fd326c4a",{});  
+    window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(function(){if(0===window.googletag.pubads().getTargeting("permutive").length){var g=window.localStorage.getItem("_pdfps");window.googletag.pubads().setTargeting("permutive",g?JSON.parse(g):[])}});
+
+    permutive.addon('web', {"page":{"type":"article","article":{"id":"1256546","title":"IBM\u2019s \u2018Code and Response\u2019 documentary proves developers can be superheroes too","description":"IBM's upcoming \u201cCode and Response\u201d documentary is an hour-long tour-de-force showcasing several developer-activists using technology to mitigate the harm caused by natural disasters. ...","topic":"","authors":["Tristan Greene"],"categories":["Artificial Intelligence","Science","Tech"],"sections":["Tech"],"keywords":["IBM","Code","Software developer","Activism"],"modifiedAt":"2019-11-18T19:28:21+01:00","publishedAt":"2019-11-18T19:28:19+01:00","type":"Article","companies":["IBM"],"profiles":[],"events":[],"sponsored":{"isSponsored":false,"client":null,"campaign":null},"wordlift":["IBM","Code","Software developer","Activism"],"syndicated":false,"roadblockedAds":false,"shares":{"facebook":0,"twitter":106,"linkedIn":0,"googlePlus":0,"reddit":0},"countComments":0,"countImages":0,"countVideos":0,"lengthBucket":""}}})
+    </script>
+    <script async src="https://cdn.permutive.com/970c370e-66b5-4cc7-ad17-1d370e11bf75-web.js"></script>
+<script>
+/* Modernizr 2.8.3 (Custom Build) | MIT & BSD
+ * Build: http://modernizr.com/download/#-touch-cssclasses-teststyles-prefixes
+ */
+;window.Modernizr=function(a,b,c){function w(a){j.cssText=a}function x(a,b){return w(m.join(a+";")+(b||""))}function y(a,b){return typeof a===b}function z(a,b){return!!~(""+a).indexOf(b)}function A(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:y(f,"function")?f.bind(d||b):f}return!1}var d="2.8.3",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m=" -webkit- -moz- -o- -ms- ".split(" "),n={},o={},p={},q=[],r=q.slice,s,t=function(a,c,d,e){var f,i,j,k,l=b.createElement("div"),m=b.body,n=m||b.createElement("body");if(parseInt(d,10))while(d--)j=b.createElement("div"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=["&#173;",'<style id="s',h,'">',a,"</style>"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},u={}.hasOwnProperty,v;!y(u,"undefined")&&!y(u.call,"undefined")?v=function(a,b){return u.call(a,b)}:v=function(a,b){return b in a&&y(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=r.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(r.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(r.call(arguments)))};return e}),n.touch=function(){var c;return"ontouchstart"in a||a.DocumentTouch&&b instanceof DocumentTouch?c=!0:t(["@media (",m.join("touch-enabled),("),h,")","{#modernizr{top:9px;position:absolute}}"].join(""),function(a){c=a.offsetTop===9}),c};for(var B in n)v(n,B)&&(s=B.toLowerCase(),e[s]=n[B](),q.push((e[s]?"":"no-")+s));return e.addTest=function(a,b){if(typeof a=="object")for(var d in a)v(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&&f&&(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},w(""),i=k=null,e._version=d,e._prefixes=m,e.testStyles=t,g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+q.join(" "):""),e}(this,this.document);
+</script>
+</head>
+
+    <body class="is-article is-branded-channel ">
+        
+<nav class="nav">
+    <div class="nav-logo">
+        <a href="/" title="The Next Web"  data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">
+            <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
+        </a>
+        <ul class="nav-logo-popout">
+            <li><a class="is-active" href="/"  data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li>
+            <li><a href="/conference/" ref="" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Conference" data-event-non-interaction="true">Events</a>
+            </li>
+            <li><a href="https://index.co/" rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Index" data-event-non-interaction="true">Index</a></li>
+            <li><a href="https://tq.co/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">TQ</a></li>
+            <li><a href="https://deals.thenextweb.com/?utm_source=thenextweb.com&amp;utm_medium=referral&amp;utm_campaign=navbar" rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Deals" data-event-non-interaction="true">Deals</a></li>
+            <li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">Answers</a></li>
+            <li><a href="/x/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TNW X" data-event-non-interaction="true">TNW X</a></li>
+        </ul>
+    </div>
+    <ul class="nav-tnw" role="navigation">
+        <li><a class="is-active" href="/"  data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li>
+        <li><a href="/conference/"  target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Conference" data-event-non-interaction="true">Events ▾</a>
+            <ul class="nav-tnw-dropdown-menu">
+                <li>
+                    <a href="/bowlr/">Bowlr 2019</a>
+                </li>
+                <li>
+                    <a href="/conference/">TNW2020</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://index.co/"  target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Business" data-event-non-interaction="true">Business ▾</a>
+            <ul class="nav-tnw-dropdown-menu">
+                <li>
+                    <a href="https://index.co/">Index</a>
+                </li>
+                <li>
+                    <a href="/x/">TNW X</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">AMAs</a></li>
+        <li><a href="https://tq.co/" rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">Spaces</a></li>
+        <li><a href="/terms-and-conditions/" rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Terms and Conditions" data-event-non-interaction="true">Terms & Conditions</a></li>
+        <div class="nav-company">
+            <li><a href="/about"  data-event-category="Top" data-event-action="Navigation" data-event-label="About" data-event-non-interaction="true">About</a></li>
+            <li><a href="/team" data-event-category="Top" data-event-action="Navigation" data-event-label="Team" data-event-non-interaction="true">Team</a></li>
+            <li><a href="/advertise"  data-event-category="Top" data-event-action="Navigation" data-event-label="Advertise" data-event-non-interaction="true">Advertise</a></li>
+            <li><a href="https://thenextweb.homerun.co/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Jobs" data-event-non-interaction="true">Jobs</a></li>
+            <li><a href="/contact"  data-event-category="Top" data-event-action="Navigation" data-event-label="Contact" data-event-non-interaction="true">Contact</a></li>
+        </div>
+     </ul>
+    <div class="u-clear" role="navigation">
+
+                    <ul class="nav-sections">
+        <li class="nav-sections-section"><a href="/latest"  data-event-category="Top" data-event-action="Channels" data-event-label="Latest" data-event-non-interaction="true">Latest</a></li>
+        <li class="nav-sections-section"><a href="/hardfork"  data-event-category="Top" data-event-action="Channels" data-event-label="Hard Fork" data-event-non-interaction="true">Hard Fork</a></li>
+        <li class="nav-sections-section"><a href="/plugged"  data-event-category="Top" data-event-action="Channels" data-event-label="Plugged" data-event-non-interaction="true">Plugged</a></li>
+        <li class="nav-sections-section"><a href="/adobe-fundamentals"  data-event-category="Top" data-event-action="Channels" data-event-label="Fundamentals" data-event-non-interaction="true">Fundamentals</a></li>
+        <li class="nav-sections-section"><a href="/work2030"  data-event-category="Top" data-event-action="Channels" data-event-label="Work2030" data-event-non-interaction="true">Work 2030</a></li>
+    </ul>
+                        
+        <ul class="nav-icons">
+            <li class="cookieConsent">
+                <a href="#"><i class="icon icon--cookie"></i></a>
+                <div class="cookieConsent-popOut">
+                    <header>
+                        <h2>Have a cookie</h2>
+                    </header>
+                    <main>
+                        <p>
+                            TNW uses cookies to personalize content and ads to
+                            make our site easier for you to use.
+                            We do also share that information with third parties for
+                            advertising &amp; analytics.
+                        </p>
+                    </main>
+                    <footer>
+                        <a class="button button--small" onclick="cookiesAccepted();"  data-event-category="Top" data-event-action="Cookies" data-event-label="OK" data-event-non-interaction="true">Got it!</a>
+                        <span>
+                            or <a href="/cookie-statement/"  data-event-category="Top" data-event-action="Cookies" data-event-label="More information" data-event-non-interaction="true">More info</a>
+                        </span>
+                    </footer>
+                </div>
+            </li>
+            <li><a id="search--open" href="#"><i class="icon icon--search--dark"></i></a>
+                <!--
+                <li><a href="#"><i class="icon icon--user--dark"></i></a>
+                -->
+            <li>
+                <a class="nav-mob-toggle" id="nav-mob-toggle" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </li>
+        </ul>
+        <!--
+        <ul class="nav-follow">
+            <li><a  data-event-category="Top" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true" href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" target="_blank"  rel="noopener"><i class="icon icon--facebook--dark"></i></a>
+            <li><a  data-event-category="Top" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true" href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" target="_blank"  rel="noopener"><i class="icon icon--twitter--dark"></i></a>
+            <li class="nav-follow-extra">
+                <ul>
+                    <li><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" target="_blank"  rel="noopener"  data-event-category="Top" data-event-action="Social" data-event-label="Google+" data-event-non-interaction="true"><i class="icon icon--google--dark"></i></a>
+                    <li><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn"  rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Social" data-event-label="LinkedIn" data-event-non-interaction="true"><i class="icon icon--linkedin--dark"></i></a>
+                    <li><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube"  rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--dark"></i></a>
+                    <li><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--dark"></i></a>
+                    <li><a href="http://pinterest.com/thenextweb/" title="Follow us on Pinterest" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--dark"></i></a>
+                    <li><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="RSS" data-event-non-interaction="true"><i class="icon icon--rss--dark"></i></a>
+                </ul>
+            </li>
+            <li><a data-modal="modalStayTuned" href="#"><i class="icon icon--mail--dark"></i></a>
+            <li class="nav-follow-more nav-follow-toggle"><a href="#"><i class="icon icon--more--dark"></i></a>
+            <li class="nav-follow-less nav-follow-toggle"><a href="#"><i class="icon icon--close"></i></a>
+        </ul>
+        -->
+
+    </div>
+
+    <div class="nav-mob">
+        <div class="nav-mob-content">
+            <ul class="nav-mob-follow">
+                <li><a data-modal="modalStayTuned" href="#"><i class="icon icon--mail--light"></i></a>
+                <li><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true"><i class="icon icon--facebook--light"></i></a></li><li><a href="https://twitter.com/thenextweb" title="Follow us on Twitter" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true"><i class="icon icon--twitter--light"></i></a></li><li><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="LinkedIn" data-event-non-interaction="true"><i class="icon icon--linkedin--light"></i></a></li><li><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--light"></i></a></li><li><a href="https://pinterest.com/thenextweb" title="Follow us on Pinterest" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--light"></i></a></li><li><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--light"></i></a></li><li><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="RSS Feed" data-event-non-interaction="true"><i class="icon icon--rss--light"></i></a></li>            </ul>
+            <div class="u-row">
+                <div class="u-col-xs-6">
+                    <h5>Sections</h5>
+                    <ul class="nav-mob-menu">
+                        <li><a href="/latest"  data-event-category="Top" data-event-action="Sections" data-event-label="Latest" data-event-non-interaction="true">Latest</a></li>
+                        <li><a href="/section/insights"  data-event-category="Top" data-event-action="Sections" data-event-label="Insights" data-event-non-interaction="true">Insights</a></li>
+                        <li><a href="/bowlr/"  data-event-category="Top" data-event-action="Sections" data-event-label="Hard Fork" data-event-non-interaction="true">Bowlr 2019</a></li>
+                        <li><a href="/plugged/"  data-event-category="Top" data-event-action="Sections" data-event-label="Plugged" data-event-non-interaction="true">Plugged</a></li>
+                        <li><a href="/adobe-fundamentals/"  data-event-category="Top" data-event-action="Sections" data-event-label="Fundamentals" data-event-non-interaction="true">Fundamentals</a></li>
+                        <!--li><a href="/iot-lab/" >IoT Lab</a></li-->
+                        <li><a href="/work2030/"  data-event-category="Top" data-event-action="Sections" data-event-label="Work2030" data-event-non-interaction="true">Work 2030</a></li>
+                    </ul>
+                </div>
+                <div class="u-col-xs-6">
+                    <h5>About TNW</h5>
+                    <ul class="nav-mob-menu">
+                    <li><a href="/about" data-event-category="Top" data-event-action="Navigation" data-event-label="About" data-event-non-interaction="true">About</a></li><li><a href="/team" data-event-category="Top" data-event-action="Navigation" data-event-label="Team" data-event-non-interaction="true">Team</a></li><li><a href="https://tnwads.typeform.com/to/ofLLXt" data-event-category="Top" data-event-action="Navigation" data-event-label="Advertise" data-event-non-interaction="true">Advertise</a></li><li><a href="/jobs" data-event-category="Top" data-event-action="Navigation" data-event-label="Jobs" data-event-non-interaction="true">Jobs</a></li><li><a href="/about#contact" data-event-category="Top" data-event-action="Navigation" data-event-label="Contact" data-event-non-interaction="true">Contact</a></li><li><a href="/terms-and-conditions/" data-event-category="Top" data-event-action="Navigation" data-event-label="Terms & Conditions" data-event-non-interaction="true">Terms & Conditions</a></li>                    </ul>
+                    <h5>TNW Sites</h5>
+                    <ul class="nav-mob-menu">
+                        <li><a href="/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li><li><a href="/conference/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TNW 2020" data-event-non-interaction="true">TNW 2020</a></li><li><a href="/bowlr/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Bowlr 2019" data-event-non-interaction="true">Bowlr 2019</a></li><li><a href="https://index.co/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Index" data-event-non-interaction="true">Index</a></li><li><a href="https://tq.co/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">TQ</a></li><li><a href="http://deals.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Deals" data-event-non-interaction="true">Deals</a></li><li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">Answers</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</nav>
+        <main class="main">
+
+<section class="channelHero">
+    <a href="" data-event-category="Category" data-event-action="artificial-intelligence" data-event-label="" class="channel-hero-link" target="_blank">
+        <div class="wrapper">
+            <div class="channel-left-cta"></div>
+            <div class="channel-right-cta"></div>
+            <div class="channel-inner-cta"></div>
+        </div>
+    </a>
+</section>
+
+        <div class="tnw-ad ad-unit-TNW_ROS_HEADER" id="TNW_ROS_HEADER_1256546" data-ad-block-id="TNW_ROS_HEADER">
+        <!-- TNW_ROS_HEADER-->
+    </div>
+
+    <div class="sheet " id="sheet-1256546">
+        
+        <div class="wrapper">
+            <div class="split">
+                <div class="content">
+                    <article class="post">
+                        
+<header class="post-header">
+    <h1 class="u-m-0_25">IBM&#8217;s &#8216;Code and Response&#8217; documentary proves developers can be superheroes too</h1>
+    <div class="post-byline u-m-1_5">
+        <a  data-event-category="Article" data-event-action="Author - Tristan Greene" data-event-label="Profile" data-event-non-interaction="true" class="lazy post-authorPhoto"  data-src="https://secure.gravatar.com/avatar/24feef3734f91dcb2799473c53f66878?s=64&d=blank&r=g" data-src-hd="https://secure.gravatar.com/avatar/24feef3734f91dcb2799473c53f66878?s=128&d=blank&r=g"           href="https://thenextweb.com/author/tristangreen/" title="Tristan Greene"></a>
+
+        <p>
+            by <a class="post-authorName" href="https://thenextweb.com/author/tristangreen/"  data-event-category="Article" data-event-action="Author - Tristan Greene" data-event-label="Profile" data-event-non-interaction="true">Tristan Greene</a>
+            &mdash; <time datetime="2019-11-18T19:28:19+00:00" class="timeago"></time>
+                        in <a class="post-section" href="https://thenextweb.com/artificial-intelligence/"  data-event-category="Article" data-event-action="Category" data-event-label="Artificial Intelligence" data-event-non-interaction="true">Artificial Intelligence</a>
+                    </p>
+    </div>
+</header>
+                        <div class="post-imageBleed">
+                                                                <div class="post-featuredImage u-m-1_5">
+                                                                                    <img alt="IBM&#8217;s &#8216;Code and Response&#8217; documentary proves developers can be superheroes too" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/ibm-796x448.jpg">
+                                                                                                                    </div>
+                                                            </div>
+                        <ul class="post-actions post-actions--top u-m-1_5">
+    <li class="post-actions-shares">
+        <div class="post-actions-shares-count">117</div>
+        <div class="post-actions-shares-label">shares</div>
+    </li>
+
+        <li class="multi-btn multi-btn--first">
+        
+	<a class="post-actions-share post-actions-share--facebook popitup gtm-social-top"
+		data-permalink="https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F#shared-facebook"
+		data-title="IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too"
+		data-network="Facebook"
+		data-url="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F%3Futm_source%3Dfacebook%26utm_medium%3Dreferral%26utm_content%3DIBM%2525E2%252580%252599s%252B%2525E2%252580%252598Code%252Band%252BResponse%2525E2%252580%252599%252Bdocumentary%252Bproves%252Bdevelopers%252Bcan%252Bbe%252Bsuperheroes%252Btoo&p[title]=IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too&p[images][0]=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F08%2Fibm.jpg&p[summary]=IBM%27s+upcoming+%E2%80%9CCode+and+Response%E2%80%9D+documentary+is+an+hour-long+tour-de-force+showcasing+several+developer-activists+using+technology+to+mitigate+the+harm+caused+by+natural+disasters.+...&u=https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F%3Futm_source%3Dfacebook%26utm_medium%3Dreferral%26utm_content%3DIBM%2525E2%252580%252599s%252B%2525E2%252580%252598Code%252Band%252BResponse%2525E2%252580%252599%252Bdocumentary%252Bproves%252Bdevelopers%252Bcan%252Bbe%252Bsuperheroes%252Btoo&t=IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too"
+		data-width="850"
+		data-height="500"
+		href="#"
+		 data-event-category="Article" data-event-action="Share" data-event-label="Facebook" data-event-non-interaction="true" >
+		<i class="icon icon--facebook--light"></i>
+	</a>
+
+	    </li>
+        <li class="multi-btn multi-btn--last post-actions-dropdown-toggle">
+        <div class="post-actions-share post-actions-share--facebook with-tooltip" data-tooltip="Save to Facebook">
+            <i class="icon icon--bookmark--light"  data-event-category="Article" data-event-action="Share" data-event-label="Facebook - Bookmark" data-event-non-interaction="true"></i>
+        </div>
+        <div class="post-actions-dropdown">
+            <div class="fb-save" data-uri="https://thenextweb.com/artificial-intelligence/2019/11/18/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too/" data-size="large"></div>
+        </div>
+    </li>
+ <li class="post-actions-btn--twitter"> 
+	<a class="post-actions-share post-actions-share--twitter popitup gtm-social-top"
+		data-permalink="https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F#shared-twitter"
+		data-title="IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too"
+		data-network="Twitter"
+		data-url="https://twitter.com/intent/tweet?url=https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F%3Futm_source%3Dtwitter%26utm_medium%3Dreferral%26utm_content%3DIBM%2525E2%252580%252599s%252B%2525E2%252580%252598Code%252Band%252BResponse%2525E2%252580%252599%252Bdocumentary%252Bproves%252Bdevelopers%252Bcan%252Bbe%252Bsuperheroes%252Btoo&via=thenextweb&related=thenextweb&text=IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too"
+		data-width="685"
+		data-height="500"
+		href="#"
+		 data-event-category="Article" data-event-action="Share" data-event-label="Twitter" data-event-non-interaction="true" >
+		<i class="icon icon--twitter--light"></i>
+	</a>
+
+	 </li>  <li class="post-actions-btn--linkedin"> 
+	<a class="post-actions-share post-actions-share--linkedin popitup gtm-social-top"
+		data-permalink="https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F#shared-linkedin"
+		data-title="IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too"
+		data-network="LinkedIn"
+		data-url="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F%3Futm_source%3Dlinkedin%26utm_medium%3Dreferral%26utm_content%3DIBM%2525E2%252580%252599s%252B%2525E2%252580%252598Code%252Band%252BResponse%2525E2%252580%252599%252Bdocumentary%252Bproves%252Bdevelopers%252Bcan%252Bbe%252Bsuperheroes%252Btoo"
+		data-width="510"
+		data-height="500"
+		href="#"
+		 data-event-category="Article" data-event-action="Share" data-event-label="LinkedIn" data-event-non-interaction="true" >
+		<i class="icon icon--linkedin--light"></i>
+	</a>
+
+	 </li>  <li class="post-actions-btn--reddit"> 
+	<a class="post-actions-share post-actions-share--reddit popitup gtm-social-top"
+		data-permalink="https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F#shared-reddit"
+		data-title="IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too"
+		data-network="Reddit"
+		data-url="http://www.reddit.com/submit?url=https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F%3Futm_source%3Dreddit%26utm_medium%3Dreferral%26utm_content%3DIBM%2525E2%252580%252599s%252B%2525E2%252580%252598Code%252Band%252BResponse%2525E2%252580%252599%252Bdocumentary%252Bproves%252Bdevelopers%252Bcan%252Bbe%252Bsuperheroes%252Btoo"
+		data-width="860"
+		data-height="500"
+		href="#"
+		 data-event-category="Article" data-event-action="Share" data-event-label="Reddit" data-event-non-interaction="true" >
+		<i class="icon icon--reddit--light"></i>
+	</a>
+
+	 </li> 
+        <li class="post-actions-btn--whatsapp">
+            <a class="post-actions-share post-actions-share--whatsapp gtm-social-top"
+                href="whatsapp://send?text=IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too - https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F"
+                target="_blank">
+                <i class="icon icon--whatsapp--light"  data-event-category="Article" data-event-action="Share" data-event-label="whatsapp" data-event-non-interaction="true"></i>
+            </a>
+        </li>
+
+         <li class="post-actions-btn--flipboard"> 
+	<a class="post-actions-share post-actions-share--flipboard popitup gtm-social-top"
+		data-permalink="https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F#shared-flipboard"
+		data-title="IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too"
+		data-network="Flipboard"
+		data-url="https://share.flipboard.com/bookmarklet/popout?url=https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F%3Futm_source%3Dflipboard%26utm_medium%3Dreferral%26utm_content%3DIBM%2525E2%252580%252599s%252B%2525E2%252580%252598Code%252Band%252BResponse%2525E2%252580%252599%252Bdocumentary%252Bproves%252Bdevelopers%252Bcan%252Bbe%252Bsuperheroes%252Btoo"
+		data-width="600"
+		data-height="500"
+		href="#"
+		 data-event-category="Article" data-event-action="Share" data-event-label="Flipboard" data-event-non-interaction="true" >
+		<i class="icon icon--flipboard--light"></i>
+	</a>
+
+	 </li> 
+        <li class="post-actions-btn--mail">
+            <a class="post-actions-share post-actions-share--mail gtm-social-top"
+                href="mailto:?subject=IBM’s ‘Code and Response’ documentary proves developers can be superheroes too&body=https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F"
+                target="_blank">
+                <i class="icon icon--mail--light"  data-event-category="Article" data-event-action="Share" data-event-label="mail" data-event-non-interaction="true"></i>
+            </a>
+        </li>
+
+            <li class="post-actions-shortUrl with-tooltip" data-clipboard-text="https://tnw.to/LmcCF" data-tooltip="Copy to Clipboard" data-tooltip-success="Copied">
+        <i class="icon icon--share"></i>
+        <input class="shortUrl gtm-social-top" name="short_url_top" type="text" value="https://tnw.to/LmcCF"   data-event-category="Article" data-event-action="Share" data-event-label="Copy Paste Link" data-event-non-interaction="true">
+    </li>
+</ul>
+        <div class="tnw-ad ad-unit-TNW_ROS_TOP" id="TNW_ROS_TOP_1256546" data-ad-block-id="TNW_ROS_TOP">
+        <!-- TNW_ROS_TOP-->
+    </div>
+
+                        <div class="post-body fb-quotable u-m-3">
+                            <p>IBM‘s upcoming “Code and Response” documentary is an hour-long tour-de-force showcasing several developer–activists using technology to mitigate the harm caused by natural disasters. I recently had the opportunity to watch an advanced screening, and it’s the single most touching, inspiring documentary I’ve seen this year.</p>
+<p>The past few years have been some of the absolute worst on record for natural disasters. Hurricanes and wildfires have raged out of control causing thousands of deaths and billions of dollars in damage. Entire communities have been ravaged. Not only is there no end in sight, but current trends indicate things are <a href="https://phys.org/news/2018-10-cascading-natural-disasters.html" target="_blank" rel="nofollow noopener">only going to get worse</a> as the human-caused climate crisis continues to disrupt the environment and produce these historic, unpredictable events.</p>
+            <div class="jwplayer-placeholder">
+                <div id="jwplayerInlineAd"></div>
+            </div>
+            <script src="//cdn.jwplayer.com/libraries/vRZNU7bT.js"> </script><script>
+                window.jwLibrary = "chM58Ml7";
+            </script><div class="ica-wrapper">
+<div class="ica-text"><a href="https://thenextweb.com/bowlr" data-event-category="Article" data-event-action="In Article Block" data-event-label="Rented shoes are gross" target="_blank"><h4>Rented shoes are gross</h4>
+<p>But bowling is fun! Join us for Bowlr, Amsterdam’s best networking event</p></a></div>
+<div class="ica-button">
+                    <a class="button gtm-in-article-block" data-event-category="Article" data-event-action="In Article Block" data-event-label="YEAH!" href="https://thenextweb.com/bowlr" target="_blank">YEAH!</a>
+                </div>
+</div>
+<p>In the midst of this new, terrifying paradigm a new kind of hero has emerged: The coder.</p>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/I2rJBefYC8c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>IBM‘s “Code and Response” is both a documentary and an open-source movement. The film, directed by Austin Peck, tells the unfolding tales of four different developers personally affected by disasters in their respective communities and their journeys to create open-source technology-based solutions to save lives, aid responders, and help recovery efforts.</p>
+<p>The movement calls on the technology and developer communities to assist in creating, implementing, and improving these solutions at the global scale. According to IBM:</p>
+<blockquote><p>The movie’s title sparked a new movement, Code &amp; Response: IBM’s new $25 million, 4-year deployment initiative to build, fortify, test and implement solutions including those at coding challenges such as Call for Code.</p></blockquote>
+<p>I went into my private viewing unsure what to expect, partially assuming I’d see an under-produced, if heartfelt look into the personal lives of a few developers interspersed with natural disaster footage. I came out of with a new perspective on what heroism looks like.</p>
+<p>The stories span Japan, California, Puerto Rico, and Mexico with breathtaking cinematography, engaging interviews, and a permeating thread of hope in the face of horror that makes “Code and Response” a must-see.</p>
+<p>This is a film about the indomitable human spirit. The developers showcased in the movie aren’t employees tasked with work-shopping solutions for the company, they’re regular people affected by horrible situations who’ve decided to do something about it. Their expertise, innovation, and clever use of IoT, AI, cloud, and other technologies shows what happens when motivated coders are given the opportunity to create solutions to today’s biggest, most pressing problems in concert with one of the globe’s largest technology companies.</p>
+<p>“Code and Response” will premiere on Amazon Prime, Vimeo, and Apple TV on Tuesday, 19 November. For more information about the film click <a href="https://developer.ibm.com/code-and-response/the-movie/" target="_blank" rel="nofollow noopener">here</a>. To learn more about the Code and Response movement, click <a href="https://developer.ibm.com/code-and-response/" target="_blank" rel="nofollow noopener">here</a>.</p>                            
+
+<p class="post-article-read-next">
+    <b>Read next:</b>
+    <a class="gtm-article-read-next"  data-event-category="Article" data-event-action="Next post" data-event-label="" data-event-non-interaction="true" href="https://thenextweb.com/plugged/2019/11/18/report-apple-is-giving-the-13-inch-macbook-pro-a-new-keyboard-next-year/">
+        Report: Apple is giving the 13-inch MacBook Pro a new keyboard next year    </a>
+</p>
+
+
+                            <div class="post-in-content-tags">
+                                <span class='tag'><a href=https://thenextweb.com/company/ibm/ data-event-category="Article" data-event-action="Tags" data-event-label="IBM" data-event-non-interaction="true">IBM</a></span><span class='tag'><a href=https://thenextweb.com/section/tech/ data-event-category="Article" data-event-action="Tags" data-event-label="Tech" data-event-non-interaction="true">Tech</a></span><span class='tag'><a href=https://thenextweb.com/vocabulary/ibm/ data-event-category="Article" data-event-action="Tags" data-event-label="IBM" data-event-non-interaction="true">IBM</a></span><span class='tag'><a href=https://thenextweb.com/vocabulary/code/ data-event-category="Article" data-event-action="Tags" data-event-label="Code" data-event-non-interaction="true">Code</a></span><span class='tag'><a href=https://thenextweb.com/vocabulary/software-developer/ data-event-category="Article" data-event-action="Tags" data-event-label="Software developer" data-event-non-interaction="true">Software developer</a></span><span class='tag'><a href=https://thenextweb.com/vocabulary/activism/ data-event-category="Article" data-event-action="Tags" data-event-label="Activism" data-event-non-interaction="true">Activism</a></span>                            </div>
+
+                        </div>
+
+                        
+<ul class="post-share u-row">
+    <li class="u-col-xs-6">
+        <a class="button button--facebook u-w-xs-100 popitup gtm-social-bottom"  data-permalink="https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F" data-title="IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too" data-network="Facebook" data-url="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=https%3A%2F%2Ftnw.to%2FoXnGG&p[title]=IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too&p[images][0]=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F08%2Fibm.jpg&p[summary]=IBM%27s+upcoming+%E2%80%9CCode+and+Response%E2%80%9D+documentary+is+an+hour-long+tour-de-force+showcasing+several+developer-activists+using+technology+to+mitigate+the+harm+caused+by+natural+disasters.+...&u=https%3A%2F%2Ftnw.to%2FoXnGG&t=IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too" data-width="850" data-height="500" href="#"   data-event-category="Article" data-event-action="Share" data-event-label="Facebook - Bottom" data-event-non-interaction="true">
+            <i class="icon icon--inline icon--facebook--light"></i> Share<span class="u-showFrom-m"> on Facebook (0)</span>
+        </a>
+    </li>
+    <li class="u-col-xs-6">
+        <a class="button button--twitter u-w-xs-100 popitup gtm-social-bottom"  data-permalink="https%3A%2F%2Fthenextweb.com%2Fartificial-intelligence%2F2019%2F11%2F18%2Fibms-code-and-response-documentary-proves-developers-can-be-superheroes-too%2F" data-title="IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too" data-network="Facebook" data-url="https://twitter.com/intent/tweet?url=https%3A%2F%2Ftnw.to%2F0Ljv3&via=thenextweb&related=thenextweb&text=IBM%E2%80%99s+%E2%80%98Code+and+Response%E2%80%99+documentary+proves+developers+can+be+superheroes+too" data-width="685" data-height="500" href="#"   data-event-category="Article" data-event-action="Share" data-event-label="Twitter - Bottom" data-event-non-interaction="true">
+            <i class="icon icon--inline icon--twitter--light"></i> Share<span class="u-showFrom-m"> on Twitter (106)</span>
+        </a>
+    </li>
+</ul>
+                    </article>
+                                    </div>
+
+                <aside class="sidebar">
+
+	    <div class="tnw-ad ad-unit-TNW_ROS_MPU_ATF" id="TNW_ROS_MPU_ATF_1256546" data-ad-block-id="TNW_ROS_MPU_ATF">
+        <!-- TNW_ROS_MPU_ATF-->
+    </div>
+	<section class="most-popular u-m-2" id="most-popular">
+		<h2 class="u-m-1">Most popular</h2>
+		<ul class="u-row">
+			<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Most Popular" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-mostpopular"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/ibm-96x96.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/ibm-96x96.jpg 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/ibm-192x192.jpg 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/ibm-550x550.jpg 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/ibm-470x470.jpg 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Most Popular'  data-event-label='1' 	 
+		   href="https://thenextweb.com/artificial-intelligence/2019/11/18/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too/"
+		   ></a>
+						<span class="story-rank">1</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='1'  class="gtm-mostpopular" href="https://thenextweb.com/artificial-intelligence/2019/11/18/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too/">
+				IBM's 'Code and Response' documentary proves developers can be superheroes too			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='1'  href="https://thenextweb.com/author/tristangreen/">Tristan Greene</a>
+			</li>
+			<li>
+				<time datetime="2019-11-18T19:28:19+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Most Popular" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-mostpopular"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design9-96x96.png" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design9-96x96.png 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design9-192x192.png 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design9-550x550.png 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design9-470x470.png 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Most Popular'  data-event-label='2' 	 
+		   href="https://thenextweb.com/facebook/2019/11/19/czech-gov-wants-to-slap-a-7-ad-tax-on-internet-giants-like-google-and-facebook/"
+		   ></a>
+						<span class="story-rank">2</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='2'  class="gtm-mostpopular" href="https://thenextweb.com/facebook/2019/11/19/czech-gov-wants-to-slap-a-7-ad-tax-on-internet-giants-like-google-and-facebook/">
+				Czech gov wants to slap a 7% ad tax on internet giants like Google and Facebook			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='2'  href="https://thenextweb.com/author/mar-maack/">Már Másson Maack</a>
+			</li>
+			<li>
+				<time datetime="2019-11-19T10:32:54+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Most Popular" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-mostpopular"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-...-1-96x96.png" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-...-1-96x96.png 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-...-1-192x192.png 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-...-1-550x550.png 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-...-1-470x470.png 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Most Popular'  data-event-label='3' 	 
+		   href="https://thenextweb.com/tech/2019/11/18/iran-shut-down-citizens-internet-access-following-protests-over-fuel-pricing/"
+		   ></a>
+						<span class="story-rank">3</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='3'  class="gtm-mostpopular" href="https://thenextweb.com/tech/2019/11/18/iran-shut-down-citizens-internet-access-following-protests-over-fuel-pricing/">
+				Iran shut down citizens' internet access following protests over fuel pricing			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='3'  href="https://thenextweb.com/author/cara-curtis/">Cara Curtis</a>
+			</li>
+			<li>
+				<time datetime="2019-11-18T11:23:08+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Most Popular" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-mostpopular"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-50-96x96.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-50-96x96.jpg 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-50-192x192.jpg 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-50-550x550.jpg 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-50-470x470.jpg 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Most Popular'  data-event-label='4' 	 
+		   href="https://thenextweb.com/hardfork/2019/11/18/senior-uk-judges-say-cryptoassets-including-bitcoin-are-property/"
+		   ></a>
+						<span class="story-rank">4</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='4'  class="gtm-mostpopular" href="https://thenextweb.com/hardfork/2019/11/18/senior-uk-judges-say-cryptoassets-including-bitcoin-are-property/">
+				Senior UK judges say cryptoassets, including Bitcoin, are property			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='4'  href="https://thenextweb.com/author/yessibelloperez/">Yessi Bello Perez</a>
+			</li>
+			<li>
+				<time datetime="2019-11-18T17:10:15+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Most Popular" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-mostpopular"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagram-Threads-96x96.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagram-Threads-96x96.jpg 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagram-Threads-192x192.jpg 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagram-Threads-550x550.jpg 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagram-Threads-470x470.jpg 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Most Popular'  data-event-label='5' 	 
+		   href="https://thenextweb.com/privacy/2019/11/19/instagram-cracks-down-on-app-that-allowed-users-to-stalk-private-profiles/"
+		   ></a>
+						<span class="story-rank">5</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='5'  class="gtm-mostpopular" href="https://thenextweb.com/privacy/2019/11/19/instagram-cracks-down-on-app-that-allowed-users-to-stalk-private-profiles/">
+				Instagram cracks down on app that allowed users to stalk private profiles			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Most Popular'  data-event-label='5'  href="https://thenextweb.com/author/ravie/">Ravie Lakshmanan</a>
+			</li>
+			<li>
+				<time datetime="2019-11-19T07:42:37+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+		</ul>
+	</section>
+    <section class="newsletter u-m-2">
+    <header class="newsletter-header u-m-1">
+        <h2>Never miss out</h2>
+        <p class="u-fontSize-s">Stay tuned with our weekly recap of what’s hot &amp; cool by our CEO <a href="/author/boris">Boris</a>.</p>
+    </header>
+    <form action="https://thenextweb.com/wp-content/themes/cyberdelia/ajax/form/newsletter.php" class="u-m-0_5" data-xhr data-xhr-success="newsletterSuccess" data-xhr-fail="newsletterFail" method="post" onsubmit="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Sign up','eventLabel':'Sidebar','eventNonInteraction':1} );">
+        <div class="newsletter-success">
+            <b>T</b><b>h</b><b>a</b><b>n</b><b>k</b><b>&nbsp;</b><b>y</b><b>o</b><b>u</b><b>!</b>
+        </div>
+        <div class="formField">
+            <div class="formField-withButton">
+                <div class="formField-withIcon u-float-left u-w-xs-75">
+                                    <input class="" name="source" hidden id="source-sidebar-newsletter" style="display: none" value="thenextweb.com/artificial-intelligence/2019/11/18/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too/">
+                    <input class="formInput formInput--text" name="email" placeholder="Email" type="email" required="">
+                    <i class="icon icon--mail"></i>
+                </div>
+                <button class="button u-float-left u-w-xs-25" type="submit">Do it</button>
+            </div>
+        </div>
+    </form>
+    <p class="u-color-light u-fontSize-s">
+        Join over 260,000 subscribers!
+    </p>
+</section>
+    <section class="u-m-1_5" id="whos-hiring">
+        <h2 class="u-m-1">Who's Hiring
+            <div class="whos-hiring-contactus"><a href="mailto:harmen@thenextweb.com?subject=Who’s Hiring">Add your company</a></div>
+        </h2>
+	<ul class="u-row">
+            <li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+                <div class="tnw-ad ad-unit-TNW_DSKT_ARTL_WHI" id="TNW_DSKT_ARTL_WHI_1256546" data-ad-block-id="TNW_DSKT_ARTL_WHI">
+        <!-- TNW_DSKT_ARTL_WHI-->
+    </div>
+</li>
+            <li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+                <div class="tnw-ad ad-unit-TNW_DSKT_ARTL_WHI_2nd" id="TNW_DSKT_ARTL_WHI_2nd_1256546" data-ad-block-id="TNW_DSKT_ARTL_WHI_2nd">
+        <!-- TNW_DSKT_ARTL_WHI_2nd-->
+    </div>
+</li>
+        </ul>
+    </section>
+
+	<section class="u-m-1_5" id="latest-stories">
+		<h2 class="u-m-1"><a href="/latest/"  data-event-category="Article" data-event-action="Latest News" data-event-label="Headline" data-event-non-interaction="true">Latest</a></h2>
+		<ul class="u-row">
+			<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Latest News" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-latestnews"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-Copy-of-...-1-3-96x96.png" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-Copy-of-...-1-3-96x96.png 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-Copy-of-...-1-3-192x192.png 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-Copy-of-...-1-3-550x550.png 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Copy-of-Copy-of-Copy-of-...-1-3-470x470.png 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Latest News'  data-event-label='1' 	 
+		   href="https://thenextweb.com/tech/2019/11/20/this-elitist-dating-app-matches-you-up-for-2-minute-livestream-dates/"
+		   ></a>
+						<span class="story-rank">1</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='1'  class="gtm-latestnews" href="https://thenextweb.com/tech/2019/11/20/this-elitist-dating-app-matches-you-up-for-2-minute-livestream-dates/">
+				This 'elitist' dating app matches you up for 2-minute livestream dates			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='1'  href="https://thenextweb.com/author/cara-curtis/">Cara Curtis</a>
+			</li>
+			<li>
+				<time datetime="2019-11-20T09:34:01+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Latest News" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-latestnews"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/surveillance-hed-1-96x96.png" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/surveillance-hed-1-96x96.png 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/surveillance-hed-1-192x192.png 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/surveillance-hed-1-550x550.png 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/surveillance-hed-1-470x470.png 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Latest News'  data-event-label='2' 	 
+		   href="https://thenextweb.com/security/2019/11/20/antivirus-giants-form-new-coalition-to-put-an-end-to-stalkerware/"
+		   ></a>
+						<span class="story-rank">2</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='2'  class="gtm-latestnews" href="https://thenextweb.com/security/2019/11/20/antivirus-giants-form-new-coalition-to-put-an-end-to-stalkerware/">
+				Antivirus giants form new coalition to put an end to stalkerware			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='2'  href="https://thenextweb.com/author/ravie/">Ravie Lakshmanan</a>
+			</li>
+			<li>
+				<time datetime="2019-11-20T09:17:31+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Latest News" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-latestnews"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/google-play-store-apps-malware-96x96.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/google-play-store-apps-malware-96x96.jpg 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/google-play-store-apps-malware-192x192.jpg 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/google-play-store-apps-malware-550x550.jpg 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/google-play-store-apps-malware-470x470.jpg 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Latest News'  data-event-label='3' 	 
+		   href="https://thenextweb.com/security/2019/11/20/google-pixel-android-samsung-camera/"
+		   ></a>
+						<span class="story-rank">3</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='3'  class="gtm-latestnews" href="https://thenextweb.com/security/2019/11/20/google-pixel-android-samsung-camera/">
+				Bug in Google Camera put Android users at risk of being secretly recorded			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='3'  href="https://thenextweb.com/author/dimitarmihov/">Mix</a>
+			</li>
+			<li>
+				<time datetime="2019-11-20T06:49:24+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Latest News" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-latestnews"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/xbox360-96x96.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/xbox360-96x96.jpg 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/xbox360-192x192.jpg 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/xbox360-550x550.jpg 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/xbox360-470x470.jpg 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Latest News'  data-event-label='4' 	 
+		   href="https://thenextweb.com/gaming/2019/11/20/microsoft-wants-xbox-scarlett-to-support-cross-gen-play-anywhere/"
+		   ></a>
+						<span class="story-rank">4</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='4'  class="gtm-latestnews" href="https://thenextweb.com/gaming/2019/11/20/microsoft-wants-xbox-scarlett-to-support-cross-gen-play-anywhere/">
+				Microsoft wants Xbox Scarlett to support cross-gen Play Anywhere			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='4'  href="https://thenextweb.com/author/rachelkaser/">Rachel Kaser</a>
+			</li>
+			<li>
+				<time datetime="2019-11-20T01:08:38+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+	<div
+		class="story story--small"  data-event-category="Article" data-event-action="Latest News" data-event-label="Post" data-event-non-interaction="true">
+		<a class="lazy story-image gtm-latestnews"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Snag_1f2ffacd-96x96.png" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Snag_1f2ffacd-96x96.png 96w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Snag_1f2ffacd-192x192.png 192w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Snag_1f2ffacd-912x912.png 912w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Snag_1f2ffacd-550x550.png 550w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Snag_1f2ffacd-470x470.png 470w" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96"		    data-event-category='Article'  data-event-action='Latest News'  data-event-label='5' 	 
+		   href="https://thenextweb.com/insider/2019/11/20/kickstarters-new-budget-tool-helps-keep-projects-accountable-for-your-money/"
+		   ></a>
+						<span class="story-rank">5</span>
+						<h4 class="story-title">
+			<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='5'  class="gtm-latestnews" href="https://thenextweb.com/insider/2019/11/20/kickstarters-new-budget-tool-helps-keep-projects-accountable-for-your-money/">
+				Kickstarter's new budget tool helps keep projects accountable for your money			</a>
+		</h4>
+		<ul class="story-byline">
+			<li>
+				<a  data-event-category='Article'  data-event-action='Latest News'  data-event-label='5'  href="https://thenextweb.com/author/napierlopez/">Napier Lopez</a>
+			</li>
+			<li>
+				<time datetime="2019-11-20T00:27:55+00:00" class="timeago"></time>
+			</li>
+		</ul>
+	</div>
+</li>
+		</ul>
+	</section>
+
+        <div class="tnw-ad ad-unit-TNW_ROS_MPU_BTF" id="TNW_ROS_MPU_BTF_1256546" data-ad-block-id="TNW_ROS_MPU_BTF">
+        <!-- TNW_ROS_MPU_BTF-->
+    </div>
+
+</aside>
+
+            </div>
+        </div>
+
+        <script id="sheet-next-article-btn" type="x-tmpl-tnw">
+    <div class="sheet sheet-next-article">
+        <div class="sheet-next-article-wrapper wrapper">
+            <a href="">
+                <span class="sheet-next-article-label">Read Next</span>
+                <span class="sheet-next-article-title"></span>
+            </a>
+        </div>
+    </div>
+</script>
+    </div>
+    
+        </main>
+
+        <footer class="footer">
+
+            <div class="footer-links">
+                <div class="wrapper">
+                    <ul class="footer-links-social">
+                        <li><a href="https://www.facebook.com/thenextweb" target="_blank" rel="noopener"  data-event-category="Footer" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true"><i class="icon icon--facebook--light"></i></a>
+                        <li><a href="https://twitter.com/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true"><i class="icon icon--twitter--light"></i></a>
+                        <li><a href="https://www.youtube.com/user/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--light"></i></a>
+                        <li><a href="https://www.instagram.com/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--light"></i></a>
+                        <li><a href="https://www.pinterest.com/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--light"></i></a>
+                        <li><a href="https://thenextweb.com/feed/" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Feed" data-event-non-interaction="true"><i class="icon icon--rss--light"></i></a>
+                        <li><a data-modal="modalStayTuned" href="#"  data-event-category="Footer" data-event-action="Social" data-event-label="Newsletter" data-event-non-interaction="true"><i class="icon icon--mail--light"></i></a>
+                    </ul>
+                    <ul class="footer-links-menu">
+                        <li><a href="/conference/"  data-event-category="Footer" data-event-action="Conference" data-event-label="" data-event-non-interaction="true">Events</a></li>
+                        <li><a href="/about"  data-event-category="Footer" data-event-action="About" data-event-label="" data-event-non-interaction="true">About</a></li>
+                        <li class="u-showFrom-m"><a href="/team"  data-event-category="Footer" data-event-action="Team" data-event-label="" data-event-non-interaction="true">Team</a></li>
+                        <li><a href="/advertise" target="_blank"  data-event-category="Footer" data-event-action="Advertise" data-event-label="" data-event-non-interaction="true">Advertise</a></li>
+                        <li><a href="https://thenextweb.homerun.hr/" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Jobs" data-event-label="" data-event-non-interaction="true">Jobs</a></li>
+                        <li><a href="/about#contact"  data-event-category="Footer" data-event-action="Contact" data-event-label="" data-event-non-interaction="true">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-legal">
+                <div class="wrapper">
+                        <span>
+                            <a href="/"><img alt="The Next Web" class="footer-legal-logoTNW" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"></a>
+                            &copy; 2006&ndash;2019 The Next Web B.V.
+                        </span>
+                        <span>Made with <b>&hearts;</b> in Amsterdam.</span>
+                        <span>
+                            Powered by
+                            <a href="https://www.stackpath.com?utm_campaign=Partner%20Display&utm_source=Partner%20Display&utm_medium=thenextweb" target="_blank" rel="noopener"><img alt="StackPath" class="footer-legal-logoStackPath" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg"></a>
+                        </span>
+                </div>
+            </div>
+            </div>
+        </footer>
+        <div class="js-modal modal modalStayTuned" id="modalStayTuned">
+    <div class="modal-window modal-window--noFooter">
+        <header class="modal-header">
+            <h3>Stay tuned</h3>
+            <a href="#close" title="Esc"><i class="ss-pika ss-delete" onclick="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Close','eventLabel':'Modal','eventNonInteraction':1} )"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#99A1AA" d="M31 19.2l-1.5-1.4-5.3 5.3-5.2-5.3-1.5 1.4 5.3 5.3-5.3 5.3 1.5 1.4 5.2-5.3 5.3 5.3 1.5-1.4-5.3-5.3"/></svg></i></a>
+        </header>
+        <div class="modal-body">
+            <h2 class="modalStayTuned-title u-m-0_5 u-text-center">
+                Treat yourself
+            </h2>
+            <p class="lead u-m-1_5 u-text-center">
+                Sit back and let the hottest tech news come to you by the magic of electronic mail.
+            </p>
+            <form action="https://thenextweb.com/wp-content/themes/cyberdelia/ajax/form/newsletter.php" class="u-m-1" method="post" data-xhr data-xhr-fail="newsletterFail" data-xhr-success="newsletterSuccess" onsubmit="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Sign up','eventLabel':'Modal','eventNonInteraction':1} );">
+                <div class="modalStayTuned-success">
+                    <b>T</b><b>h</b><b>a</b><b>n</b><b>k</b><b>&nbsp;</b><b>y</b><b>o</b><b>u</b><b>!</b>
+                </div>
+                <div class="formField">
+                    <div class="formField-withButton">
+                        <div class="formField-withIcon u-float-left u-w-xs-75">
+                            <input class="formInput formInput--text" name="email" placeholder="Email" type="email" required="">
+                                                        <input class="" name="source" hidden id="source-newsletter" style="display: none" value="thenextweb.com/artificial-intelligence/2019/11/18/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too/">
+                            <i class="icon icon--mail"></i>
+                        </div>
+                        <button class="button u-float-left u-w-xs-25" type="submit">Sign up</button>
+                    </div>
+                </div>
+            </form>
+            <p class="u-color-light u-fontSize-xs u-m-1 u-text-center">
+                Prefer to get the news as it happens? Follow us on social media.
+            </p>
+            <ul class="modalStayTuned-channels u-row">
+                <li class="u-col-xs-6 u-m-0">
+                    <div class="modalStayTuned-channels-channel modalStayTuned-channels-channel--twitter">
+                    <div class="modalStayTuned-channels-icon"><a href="https://twitter.com/thenextweb" target="_blank" rel="noopener"><img alt="Twitter" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icon-twitter.svg"></a></div>
+                        <p class="modalStayTuned-channels-followers">
+                            <b>1.76M</b> followers
+                        </p>
+                        <a class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/thenextweb"></a>
+                    </div>
+                </li>
+                <li class="u-col-xs-6 u-m-0">
+                    <div class="modalStayTuned-channels-channel modalStayTuned-channels-channel--facebook">
+                        <div class="modalStayTuned-channels-icon"><a href="https://www.facebook.com/thenextweb" target="_blank" rel="noopener"><img alt="Facebook" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icon-facebook.svg"></a></div>
+                        <p class="modalStayTuned-channels-followers">
+                            <b>1M</b> likes
+                        </p>
+                        <div class="fb-like" data-href="https://www.facebook.com/thenextweb" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="js-modal modal modalStayTuned" id="modalSurvey">
+    <div class="modal-window modal-window--noFooter">
+        <header class="modal-header">
+            <h3>Help us out</h3>
+            <a href="#close" title="Esc" rel="modal:close"><i class="ss-pika ss-delete" onclick="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Close','eventLabel':'Modal','eventNonInteraction':1} )"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#99A1AA" d="M31 19.2l-1.5-1.4-5.3 5.3-5.2-5.3-1.5 1.4 5.3 5.3-5.3 5.3 1.5 1.4 5.2-5.3 5.3 5.3 1.5-1.4-5.3-5.3"/></svg></i></a>
+        </header>
+        <div class="modal-body">
+            <h2 class="modalStayTuned-title u-m-0_5 u-text-center">
+                Who are you?
+            </h2>
+            <p class="lead u-m-1_5 u-text-center">
+                Got two minutes to spare? We'd love to know a bit more about our readers.<br /><br />
+                <a class="button u-w-xs-25" href="#">Start!</a>
+            </p>
+            <p class="u-color-light u-fontSize-xs u-m-1 u-text-center">
+                All data collected in the survey is anonymous.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div> -->
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><div class="search" id="search">
+    <header class="search-header">
+        <a class="search-header-logo" href="/">
+            <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw-red.svg">
+        </a>
+        <a id="search--close" class="search--close" href="#"><i class="icon icon--close"></i></a>
+    </header>
+    <form action="/" class="search-form" method="get">
+        <input autocomplete="off" id="search-input" name="q" value="" placeholder="Search" type="text" onfocus="this.value = this.value;">
+        <a id="search-clear" class="search-clear" href="#"><i class="icon icon--close icon--close-white icon--close-small"></i></a>
+    </form>
+    <div class="search-results" id="searchResults"></div>
+
+    <div class="search-nav-hints">
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">↑</span> <span class="search-nav-hint-key">↓</span> Navigate up/down
+        </div>
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">Enter</span> Go to article
+        </div>
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">/</span> Search new term
+        </div>
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">Esc</span> Close search
+        </div>
+    </div>
+
+</div>
+
+    <script type="text/javascript" src="/wp-content/advertisement.js" async></script>
+
+    <script type="text/javascript">
+        var adBlocker = true;
+        var APP_ENV = {"theme":"cyberdelia","permalink":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/11\/18\/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too","template":"article","paths":{"site":"https:\/\/thenextweb.com\/","base":"https:\/\/thenextweb.com\/wp-content\/themes\/cyberdelia\/","assets":"https:\/\/cdn0.tnwcdn.com\/wp-content\/themes\/cyberdelia\/assets\/"},"pageIdx":1,"currentPost":1256546,"activePostIdx":0,"postRack":[{"id":1256546,"permalink":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/11\/18\/ibms-code-and-response-documentary-proves-developers-can-be-superheroes-too\/","title":"IBM\u2019s \u2018Code and Response\u2019 documentary proves developers can be superheroes too","socialTitle":"IBM\u2019s \u2018Code and Response\u2019 documentary proves developers can be superheroes too","datetime":"2019-11-18T19:28:19+00:00","author":"Tristan Greene","category":"artificial-intelligence","categoryId":41159,"section":"tech","sectionId":35266,"wordCount":814,"canvasSlug":null,"adTargeting":{"postId":1256546,"category":"Artificial Intelligence,Science,Tech","section":"Tech","company":"IBM","sponsorName":null,"isSponsoredPost":"No","isSponsoredCategory":"No"}}],"layout":{"siteskin":false},"category":"artificial-intelligence","categoryId":41159,"section":"tech","sectionId":35266,"adTargeting":{"postId":1256546,"category":"Artificial Intelligence,Science,Tech","section":"Tech","company":"IBM","sponsorName":null,"isSponsoredPost":"No","isSponsoredCategory":"No"}}    </script>
+
+    <script type="text/javascript">
+
+        function getTheCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        if (getTheCookie("tuid") !== "") {
+            dataLayer.push({
+                'tuid': getTheCookie("tuid")
+            });
+        }
+
+    </script>
+	
+    <script src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/js/app.min.js?v=1573671268" type="text/javascript" async></script>
+
+  		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thenextweb.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<script type='text/javascript'>
+/* <![CDATA[ */
+var wlSettings = {"ajaxUrl":"https:\/\/thenextweb.com\/wp-admin\/admin-ajax.php","apiUrl":"https:\/\/thenextweb.com\/wl-api\/","postId":"1256546","jsonld_enabled":""};
+var wordlift = {"version":"3.21.0"};
+var wordliftAnalyticsConfigData = {"entity_uri_dimension":"1","entity_type_dimension":"2"};
+var wordliftAnalyticsEntityData = {"87":{"uri":"http:\/\/data.thenextweb.com\/tnw\/entity\/ibm","type":"http:\/\/schema.org\/Organization","label":"IBM"},"1243210":{"uri":"http:\/\/data.thenextweb.com\/tnw\/entity\/code","type":"http:\/\/schema.org\/Thing","label":"Code"},"1081736":{"uri":"http:\/\/data.thenextweb.com\/tnw\/entity\/software_developer","type":"http:\/\/schema.org\/Thing","label":"Software developer"},"1182036":{"uri":"http:\/\/data.thenextweb.com\/tnw\/entity\/activism","type":"http:\/\/schema.org\/Thing","label":"Activism"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thenextweb.com/wp-content/plugins/wordlift/js/dist/bundle.js?ver=3.21.0'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-content/plugins/elasticpress/dist/js/facets.min.js?ver=3.0.3'></script>
+        <script>
+            (new Image()).src = "//sync.search.spotxchange.com/partner?source=204258";
+        </script>
+            </body>
+</html>
